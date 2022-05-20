@@ -8,3 +8,5 @@ function getRandomColor() {
 
     return colors[indiceRandom]
 }
+
+document.querySelector("button").addEventListener("click",function() {document.body.style.background = getRandomColor()} )
